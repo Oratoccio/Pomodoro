@@ -1,0 +1,12 @@
+[package]
+name = "Pomodoro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.27"
+egui = "0.27"
+tokio = { version = "1.37", features = ["full"] }
+rspotify = { version = "0.13.3", features = ["client-reqwest"] }
+serde = { version = "1", features = ["derive"] }
+open = "5.1.2"
